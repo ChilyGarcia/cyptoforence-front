@@ -317,24 +317,24 @@ export default function LandingPage() {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-8">
               {[
                 {
-                  title: "Company",
-                  links: ["About Us", "Careers", "Press"],
+                  title: "Empresa JADE",
+                  links: ["Acerca de"],
                 },
                 {
-                  title: "Resources",
-                  links: ["Blog", "Documentation", "FAQ"],
+                  title: "Recursos",
+                  links: ["Blog", "Documentacion"],
                 },
                 {
                   title: "Legal",
                   links: [
-                    "Privacy Policy",
-                    "Terms of Service",
-                    "Cookie Policy",
+                    "Politica de privacidad",
+                    "Terminos del servicio",
+                    "Politicas de cookies",
                   ],
                 },
                 {
-                  title: "Connect",
-                  links: ["Twitter", "LinkedIn", "GitHub"],
+                  title: "Contactanos",
+                  links: ["LinkedIn"],
                 },
               ].map((section) => (
                 <div key={section.title}>
